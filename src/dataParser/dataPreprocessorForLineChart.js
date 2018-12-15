@@ -1,11 +1,11 @@
 const fs = require('fs');
-const English = require('./datasets/calendarData-English');
-const Entertainment = require('./datasets/calendarData-Entertainment');
-const Exercise = require('./datasets/calendarData-Exercise');
-const HackDay = require('./datasets/calendarData-HackDay');
-const SickRehabilitation = require('./datasets/calendarData-Sick-rehabilitation');
-const Training = require('./datasets/calendarData-Training');
-const Work = require('./datasets/calendarData-Work');
+const English = require('../datasets/calendarData-English');
+const Entertainment = require('../datasets/calendarData-Entertainment');
+const Exercise = require('../datasets/calendarData-Exercise');
+const HackDay = require('../datasets/calendarData-HackDay');
+const SickRehabilitation = require('../datasets/calendarData-Sick-rehabilitation');
+const Training = require('../datasets/calendarData-Training');
+const Work = require('../datasets/calendarData-Work');
 
 const DataSetMap = {
   English,

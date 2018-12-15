@@ -27,13 +27,13 @@ import TrainingLine from './datasets/calendarData-Line-Training';
 import WorkLine from './datasets/calendarData-Line-Work';
 
 const dataSets = {
-    English,
-    Entertainment,
-    Exercise,
-    HackDay,
-    SickRehabilitation,
-    Training,
-    Work
+  English,
+  Entertainment,
+  Exercise,
+  HackDay,
+  SickRehabilitation,
+  Training,
+  Work
 };
 
 const dataSetsForLine = {
