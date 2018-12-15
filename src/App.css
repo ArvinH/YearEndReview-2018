@@ -1,5 +1,12 @@
 .App {
   text-align: center;
+  background-color: #f7f7ed;
+  height: 100%;
+}
+
+.App h1 {
+  margin: 0;
+  padding-top: 20px;
 }
 
 .App-logo {
@@ -22,11 +29,20 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.CalendarGroup {
+  position: relative;
+  height: 450px;
+  z-index: 0;
+}
+
+.CalendarGroup .dropdown {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  z-index: 1;
+}
+
+.WaffleGroup {
+  position: relative;
+  height: 550px;
 }
