@@ -1,8 +1,10 @@
 {
-  "name": "YearEndDashboard",
+  "name": "YearEndReview-2018",
   "version": "0.0.1",
   "private": true,
+  "homepage": "http://arvinh.github.io/YearEndReview-2018",
   "devDependencies": {
+    "gh-pages": "^2.0.1",
     "react-scripts": "2.1.1"
   },
   "dependencies": {
@@ -16,6 +18,8 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
